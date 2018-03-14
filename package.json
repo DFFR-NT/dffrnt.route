@@ -2,7 +2,7 @@
 	"name" : "dffrnt.route",
 	"version": "1.0.0",
 	"description": "An Express/Passport/MySQL-based API Router",
-	"author": "Arian Johnson <arian.johnson@dffrnt.ca>",
+	"author": "Arian Johnson <arian.johnson@icloud.com>",
 	"homepage": "https://dffrnt.ca",
 	"repository" : {
 		"type" : "git",
