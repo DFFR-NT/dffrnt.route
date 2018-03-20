@@ -4,10 +4,7 @@
 	"description": "An Express/Passport/MySQL-based API Router",
 	"author": "Arian Johnson <arian.johnson@icloud.com>",
 	"homepage": "https://dffrnt.ca",
-	"repository" : {
-		"type" : "git",
-		"url" : "https://github.com/LeShaunJ/dffrnt.route.git"
-	},
+	"repository" : "DFFR-NT/dffrnt.route",
 	"main": "index.js",
 	"license": "GNU",
 	"dependencies": {
