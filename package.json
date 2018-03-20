@@ -6,7 +6,7 @@
 	"homepage": "https://dffrnt.ca",
 	"repository" : "DFFR-NT/dffrnt.route",
 	"main": "index.js",
-	"license": "GNU",
+	"license": "MIT",
 	"dependencies": {
 		"app-root-path": "*",
 		"body-parser": "^1.12.4",
