@@ -2,9 +2,15 @@
 	"name" : "dffrnt.route",
 	"version": "1.0.0",
 	"description": "An Express/Passport/MySQL-based API Router",
-	"author": "Arian Johnson <arian.johnson@icloud.com>",
+	"author": {
+		"name": "Arian Johnson",
+		"email": "arian.johnson@icloud.com"
+	},
 	"homepage": "https://dffrnt.ca",
 	"repository" : "DFFR-NT/dffrnt.route",
+	"bugs": {
+		"url": "https://github.com/DFFR-NT/dffrnt.route/issues"
+	},
 	"main": "index.js",
 	"license": "MIT",
 	"dependencies": {
@@ -15,8 +21,8 @@
 		"cookie-parser": "^1.3.4",
 		"cors": "*",
 		"crypto-token": "^1.0.1",
-		"dffrnt.utils": "git+https://github.com/leshaunj/dffrnt.utils.git",
-		"dffrnt.model": "git+https://github.com/leshaunj/dffrnt.model.git",
+		"dffrnt.utils": "DFFR-NT/dffrnt.utils",
+		"dffrnt.model": "DFFR-NT/dffrnt.model",
 		"express": "^4.12.3",
 		"express-session": "^1.11.2",
 		"json-web-token": "^1.6.3",
