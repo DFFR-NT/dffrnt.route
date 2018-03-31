@@ -1,7 +1,7 @@
 {
 	"name" : "dffrnt.route",
 	"version": "1.5.0",
-	"description": "An Express/Passport/MySQL-based API Router",
+	"description": "An Express/SocketIO/Passport-based API Router",
 	"author": {
 		"name": "Arian Johnson",
 		"email": "arian.johnson@icloud.com"
