@@ -1,5 +1,4 @@
 
-'use strict';
 
 // ----------------------------------------------------------------------------------------------
 // Handle Requires ------------------------------------------------------------------------------
@@ -9,5 +8,6 @@
 	import { default as Session } from './lib/Session.js';
 	import { default as REST 	} from './lib/rest.js';
 	import { default as Errors 	} from './lib/errors.js';
+	export { Help, Routes, Session, REST, Errors };
 
-	export { Help, Routes, Session, REST, Errors }
+	export default { Help, Routes, Session, REST, Errors };
