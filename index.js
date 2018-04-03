@@ -1,12 +1,11 @@
 
-
 // ----------------------------------------------------------------------------------------------
 // Handle Requires ------------------------------------------------------------------------------
 
 	module.exports = {
-		Help: 		require('./lib/help.js'),
-		Routes: 	require('./lib/Routes.js'),
-		Session: 	require('./lib/Session.js'),
-		REST: 		require('./lib/rest.js'),
-		Errors: 	require('./lib/errors.js')
+		Help: 		require('./lib/help'),
+		Routes: 	require('./lib/routes'),
+		Session: 	require('./lib/session'),
+		REST: 		require('./lib/rest'),
+		Errors: 	require('./lib/errors')
 	};
