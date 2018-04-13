@@ -1,1 +1,6 @@
+**/package-lock.json
 **/.DS_Store
+**/.vscode
+**/jsconfig.json
+**/jsdoc.json
+**/.tern-project
