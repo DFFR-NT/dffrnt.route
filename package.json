@@ -1,6 +1,6 @@
 {
 	"name": "dffrnt.route",
-	"version": "1.5.1",
+	"version": "1.5.2",
 	"description": "An Express/SocketIO/Passport-based API Router",
 	"author": {
 		"name": "Arian Johnson",
@@ -22,7 +22,7 @@
 		"cors": "*",
 		"crypto-token": "^1.0.1",
 		"dffrnt.confs": "DFFR-NT/dffrnt.confs#v1.5.1",
-		"dffrnt.utils": "DFFR-NT/dffrnt.utils#v1.5.1",
+		"dffrnt.utils": "DFFR-NT/dffrnt.utils#v1.5.2",
 		"express": "^4.12.3",
 		"express-session": "^1.11.2",
 		"json-web-token": "^1.6.3",
