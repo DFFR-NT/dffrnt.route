@@ -9,7 +9,7 @@
 	"homepage": "https://github.com/DFFR-NT/dffrnt.route#readme",
 	"repository": {
 		"type": "git",
-    	"url": "https://github.com/DFFR-NT/dffrnt.route"
+    	"url": "https://github.com/DFFR-NT/dffrnt.route.git"
 	},
 	"bugs": {
 		"url": "https://github.com/DFFR-NT/dffrnt.route/issues"
