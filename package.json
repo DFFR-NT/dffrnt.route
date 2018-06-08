@@ -16,6 +16,12 @@
 	},
 	"main": "index.js",
 	"license": "MIT",
+	"cpu" : [ "x64" ],
+	"os" : [ "darwin", "linux", "Win32" ],
+	"engines" : { 
+		"node" : "<=8.9.4",
+		"npm": "<=5.6.0"
+	},
 	"dependencies": {
 		"app-root-path": "*",
 		"body-parser": "^1.12.4",
