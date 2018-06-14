@@ -2,6 +2,14 @@
 	"name": "dffrnt.route",
 	"version": "1.5.2",
 	"description": "An Express/SocketIO/Passport-based API Router",
+	"keywords": [
+		"api",
+		"api-router",
+		"express",
+		"socket-io",
+		"passport",
+		"dffrnt"
+	],
 	"author": {
 		"name": "Arian Johnson",
 		"email": "arian.johnson@icloud.com"
