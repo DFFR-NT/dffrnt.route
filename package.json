@@ -1,6 +1,6 @@
 {
 	"name": "dffrnt.route",
-	"version": "2.5.0",
+	"version": "3.0.0",
 	"description": "An Express/SocketIO/Passport-based API Router",
 	"keywords": [
 		"api",
@@ -24,6 +24,7 @@
 		"url": "https://github.com/DFFR-NT/dffrnt.route/issues"
 	},
 	"main": "index.js",
+	"engines" : { "node" : ">=8.94 <10.16.3" },
 	"license": "MIT",
 	"dependencies": {
 		"app-root-path": "2.0.1",
@@ -33,8 +34,8 @@
 		"cookie-parser": "1.4.3",
 		"cors": "2.8.4",
 		"crypto-token": "1.0.1",
-		"dffrnt.confs": "2.5.0",
-		"dffrnt.utils": "2.5.0",
+		"dffrnt.confs": "3.0.0",
+		"dffrnt.utils": "3.0.0",
 		"express": "4.16.3",
 		"express-limiter": "1.6.1",
 		"express-recaptcha": "4.0.2",
