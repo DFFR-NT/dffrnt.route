@@ -42,7 +42,7 @@
 					...file,
 					headers:  HDR(GLN()),
 					content:  ZoN(Buffer.concat(CHK, LEN)),
-					gzip:     NaI,
+					gzip:     NaI&&NaJ,
 				})));
 		} catch (e) { reject(e); }; });
 	};
