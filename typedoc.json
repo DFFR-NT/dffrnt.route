@@ -1,0 +1,15 @@
+{
+	"mode": "file", 
+	"module": "commonjs", 
+	"target": "es6", 
+	"name": "dffrnt.api", 
+	
+	"hideGenerator": true, 
+	"categorizeByGroup": true, 
+	"excludeExternals": true, 
+	"includeDeclarations": true, 
+	"ignoreCompilerErrors": true, 
+
+	"theme": "../../../typedoc/dffrnt", 
+	"out": "docs/"
+}
