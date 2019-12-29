@@ -1,6 +1,6 @@
 {
 	"name": "dffrnt.route",
-	"version": "4.0.1",
+	"version": "4.0.2",
 	"description": "An Express/SocketIO/Passport-based API Router",
 	"keywords": [
 		"api",
@@ -35,8 +35,8 @@
 		"cookie-parser": "1.4.3",
 		"cors": "2.8.4",
 		"crypto-token": "1.0.1",
-		"dffrnt.confs": "4.0.1",
-		"dffrnt.utils": "4.0.1",
+		"dffrnt.confs": "4.0.2",
+		"dffrnt.utils": "4.0.2",
 		"express": "4.16.3",
 		"express-limiter": "1.6.1",
 		"express-recaptcha": "4.0.2",

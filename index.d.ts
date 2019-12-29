@@ -799,6 +799,7 @@ export module 'dffrnt.route' {
 		export class GNRequest { 
 			public  readonly Name:     string;
 			public  readonly Requests: Immutable.OrderedMap<string,(RouteAU|RouteDB)>;
+			public  readonly Utils:    CLPointUtils;
 			private readonly _start:   Immutable.OrderedMap<string,Date>;
 
 			/**
@@ -806,7 +807,7 @@ export module 'dffrnt.route' {
 			 * @param Name The name of the request route
 			 * @param Configs The configurations for the request route 
 			 */
-			constructor(Name: string, Configs: (CLRouteAU | CLRouteDB)): GNRequest;
+			constructor(Name: string, Configs: CFG.PNTS.Base): GNRequest;
 
 			/**
 			 * Sends an `Error` response to the Client
@@ -910,7 +911,7 @@ export module 'dffrnt.route' {
 			 * @param Name The name of the request route
 			 * @param Configs The configurations for the request route 
 			 */
-			constructor(Name: string, Configs: CLRouteAU): AURequest;
+			constructor(Name: string, Configs: CFG.PNTS.Base<RouteAU>): AURequest;
 
 			get Passer  (): typeof Session.Passport;
 			get Token  	(): typeof Session.JWT;
@@ -1016,7 +1017,7 @@ export module 'dffrnt.route' {
 			 * @param Name The name of the request route
 			 * @param Configs The configurations for the request route 
 			 */
-			constructor(Name: string, Configs: CLRouteDB): DBRequest;
+			constructor(Name: string, Configs: CFG.PNTS.Base<RouteDB>): DBRequest;
 		
 			/**
 			 * Sanitizes & Formats each Parameter in an Endpoint's clause
