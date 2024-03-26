@@ -37,7 +37,7 @@
 		"crypto-token": "1.0.1",
 		"dffrnt.confs": "4.0.5",
 		"dffrnt.utils": "4.0.5",
-		"express": "4.16.3",
+		"express": "4.19.2",
 		"express-limiter": "1.6.1",
 		"express-recaptcha": "4.0.2",
 		"express-session": "1.15.6",
